@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="30_EventHandling.css">
+    <script src="30_EventHandling.js"></script>
+</head>
+
+<body  onkeypress="function6()" onscroll="function5()">
+
+    <header>
+        <h1>Event Managment in Javascript</h1>
+    </header>
+
+    <section>
+
+        <h1>Onclick Event</h1>
+        <div id="container1">
+
+            <div class="box">
+                <h2>Single Click</h2>
+                <button onclick="function1()">Click Me</button>
+            </div>
+            <div class="box">
+                <h2>Double Click</h2>
+                <button ondblclick="function2()">Click Me</button>
+            </div>
+
+        </div>
+
+        <div id="result" style="font-size: 25px;"></div>
+
+        <h1>Onhover Event</h1>
+        <div id="container2">
+            <h3>Mouse Hover</h3>
+            <p id="p_1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, doloremque. Iste nam consequatur
+                excepturi aut, id ad ducimus itaque voluptatem corrupti quia necessitatibus atque eos voluptatibus
+                molestiae, iure quam iusto.
+            </p>
+
+            <p id="p_2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, doloremque. Iste nam consequatur
+                excepturi aut, id ad ducimus itaque voluptatem corrupti quia necessitatibus atque eos voluptatibus
+                molestiae, iure quam iusto.
+            </p>
+            <hr>
+            <h3>Mouse in-out</h3>
+            <div class="box" id="box2" onmouseenter="function3()" onmouseout="function4()"></div>
+        </div>
+
+        <h1>On Scroll Event</h1>
+        <div id="container3">
+            
+            <p id="box3"></p>
+        
+        </div>
+
+        <h1>On Key Press Event</h1>
+        <div id="container3">
+            
+            <p id="box4"></p>
+        
+        </div>
+
+    </section>
+
+</body>
+
+</html>
